@@ -1,0 +1,1 @@
+"D:\\DmmGame\\gakumas\\gakumas.exe" /viewer_id=224633751 /onetime_token=54fd2fe0a61d5a4632e4a84ddd81522b /open_id=KxwMxzRfi8ZrnJ2M /pf_access_token=fuqPhnsgsCFqdPpviSim95idZHfsiBVpXXrfU1JoCOGCnd3zZG4nM6lg9W1VyTaNkf6fZx6wRcnkpsi62gya1MNL0oDb1c647BhS0xUh 
