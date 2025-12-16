@@ -96,7 +96,7 @@ std::string CheckToken()
 
 	if (cPath == nullptr)
 	{
-		std::cout << "Appdata 경로가 없습니다." << std::endl;
+		std::cout << "Appdata 경로가 없습니다.\n" << std::endl;
 		return "";
 	}
 
@@ -106,7 +106,7 @@ std::string CheckToken()
 	//로그파일이 만들어진 적 없음
 	if (!std::filesystem::exists(fLogPath))
 	{
-		std::cout << "로그 파일이 없습니다. DMM에 로그인하여 학원마스를 실행시켜 주세요.";
+		std::cout << "로그 파일이 없습니다. DMM에 로그인하여 학원마스를 실행시켜 주세요.\n";
 		return "";
 	}
 
@@ -131,7 +131,7 @@ std::string CheckToken()
 
 	if (StartIndex == std::string::npos)
 	{
-		std::cout << "실행지점을 찾을 수 없습니다. DMM에 로그인하여 학원마스를 실행시켜 주세요.";
+		std::cout << "실행지점을 찾을 수 없습니다. DMM에 로그인하여 학원마스를 실행시켜 주세요.\n";
 		return "";
 	}
 
@@ -166,6 +166,7 @@ void ExcuteGakumas(std::string_view strPath)
 {
 	if (strPath.empty())
 	{
+		system("pause");
 		return;
 	}
 
